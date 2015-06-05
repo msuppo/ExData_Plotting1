@@ -1,4 +1,4 @@
-# Plot2: Time series plot of global minute-averaged active power (in kilowatt)
+ # Plot2: Time series plot of global minute-averaged active power (in kilowatt)
 
 
 plot2 <- function() {
@@ -21,6 +21,5 @@ plot2 <- function() {
   png("plot2.png", width=480, height=480)
   plot(Data$DataTime, Data$Global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)")
   dev.off()
-  cat("Plot2.png has been saved in working directory:", getwd(), "\n", 
-      "NOTE: my OS is in Spanish, so the days of Date are in Spanish (Ju. = Thu, Vi. = Fri, Sa. = Sat)")
+  cat("Plot2.png has been saved in working directory:", getwd())
 }
