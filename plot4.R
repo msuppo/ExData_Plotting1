@@ -35,6 +35,5 @@ plot4 <- function() {
   plot(Data$DataTime, Data$Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power")
   ## Generate png File
   dev.off()
-  cat("Plot4.png has been saved in working directory:", getwd(),  "\n", 
-      "NOTE: my OS is in Spanish, so the days of Date are in Spanish (Ju. = Thu, Vi. = Fri, Sa. = Sat)")
+  cat("Plot4.png has been saved in working directory:", getwd())
 }
