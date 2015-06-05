@@ -1,8 +1,6 @@
 ## Plot3: Time series plot of energy usage across various sections of the house. All measurements reflect watt-hour of active energy.
 
-
 plot3 <- function() {
-
   
 # Data_Preprocesing
   ## Data downloading and extraction
